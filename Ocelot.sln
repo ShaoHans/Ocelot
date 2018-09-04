@@ -40,6 +40,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.Benchmarks", "test\O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.IntegrationTests", "test\Ocelot.IntegrationTests\Ocelot.IntegrationTests.csproj", "{D4575572-99CA-4530-8737-C296EDA326F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.Test", "mytest\ApiGateway.Test\ApiGateway.Test.csproj", "{BFF84325-D506-408C-86B7-957C92ABDFC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mytest", "mytest", "{6F013424-DD3B-4241-AAE3-F884584998A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOne", "mytest\ApiOne\ApiOne.csproj", "{129EE1ED-131B-4D1B-A446-0BC5A9F88291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +76,14 @@ Global
 		{D4575572-99CA-4530-8737-C296EDA326F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4575572-99CA-4530-8737-C296EDA326F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4575572-99CA-4530-8737-C296EDA326F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF84325-D506-408C-86B7-957C92ABDFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF84325-D506-408C-86B7-957C92ABDFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF84325-D506-408C-86B7-957C92ABDFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF84325-D506-408C-86B7-957C92ABDFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129EE1ED-131B-4D1B-A446-0BC5A9F88291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129EE1ED-131B-4D1B-A446-0BC5A9F88291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129EE1ED-131B-4D1B-A446-0BC5A9F88291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129EE1ED-131B-4D1B-A446-0BC5A9F88291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +95,8 @@ Global
 		{02BBF4C5-517E-4157-8D21-4B8B9E118B7A} = {5B401523-36DA-4491-B73A-7590A26E420B}
 		{106B49E6-95F6-4A7B-B81C-96BFA74AF035} = {5B401523-36DA-4491-B73A-7590A26E420B}
 		{D4575572-99CA-4530-8737-C296EDA326F8} = {5B401523-36DA-4491-B73A-7590A26E420B}
+		{BFF84325-D506-408C-86B7-957C92ABDFC9} = {6F013424-DD3B-4241-AAE3-F884584998A0}
+		{129EE1ED-131B-4D1B-A446-0BC5A9F88291} = {6F013424-DD3B-4241-AAE3-F884584998A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21476EFF-778A-4F97-8A56-D1AF1CEC0C48}
